@@ -4,14 +4,435 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pente</title>
+    <link href='style.css' rel="stylesheet">
 </head>
-<body>
-    
-    <!--  Text 1  -->
-    <!-- Test 2 -->
-    <!--  Test 3-->
-    <!--  Test 4-->
-
+<body>    
+    <h1>Pente</h1>
+    <br>
+    <label for="player1 ">Player 1:</label>
+    <input type="text" id="player1" name="player1" placeholder="Bob" maxlength="15"><br>
+    <label for="player2">Player 2:</label>
+    <input type="text" id="player2" name="player2" placeholder="Bib" maxlength="15"><br>
+    <br>
+    <div class="board">
+        <div class="row">
+            <button id="btn1" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn2" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn3" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn4" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn5" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn6" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn7" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn8" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn9" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn10" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn11" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn12" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn13" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn14" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn15" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn16" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn17" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn18" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn19" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn20" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn21" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn22" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn23" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn24" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn25" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn26" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn27" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn28" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn29" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn30" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn31" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn32" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn33" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn34" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn35" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn36" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn37" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn38" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn39" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn40" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn41" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn42" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn43" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn44" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn45" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn46" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn47" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn48" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn49" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn50" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn51" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn52" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn53" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn54" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn55" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn56" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn57" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn58" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn59" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn60" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn61" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn62" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn63" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn64" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn65" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn66" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn67" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn68" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn69" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn70" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn71" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn72" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn73" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn74" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn75" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn76" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn77" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn78" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn79" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn80" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn81" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn82" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn83" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn84" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn85" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn86" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn87" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn88" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn89" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn90" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn91" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn92" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn93" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn94" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn95" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn96" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn97" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn98" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn99" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn100" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn101" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn102" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn103" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn104" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn105" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn106" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn107" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn108" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn109" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn110" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn111" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn112" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn113" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn114" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn115" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn116" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn117" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn118" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn119" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn120" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn121" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn122" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn123" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn124" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn125" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn126" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn127" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn128" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn129" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn130" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn131" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn132" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn133" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn134" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn135" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn136" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn137" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn138" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn139" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn140" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn141" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn142" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn143" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn144" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn145" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn146" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn147" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn148" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn149" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn150" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn151" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn152" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn153" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn154" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn155" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn156" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn157" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn158" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn159" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn160" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn161" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn162" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn163" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn164" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn165" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn166" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn167" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn168" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn169" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn170" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn171" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn172" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn173" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn174" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn175" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn176" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn177" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn178" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn179" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn180" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn181" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn182" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn183" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn184" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn185" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn186" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn187" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn188" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn189" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn190" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn191" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn192" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn193" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn194" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn195" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn196" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn197" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn198" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn199" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn200" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn201" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn202" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn203" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn204" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn205" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn206" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn207" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn208" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn209" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn210" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn211" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn212" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn213" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn214" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn215" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn216" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn217" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn218" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn219" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn220" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn221" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn222" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn223" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn224" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn225" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn226" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn227" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn228" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn229" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn230" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn231" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn232" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn233" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn234" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn235" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn236" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn237" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn238" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn239" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn240" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn241" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn242" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn243" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn244" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn245" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn246" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn247" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn248" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn249" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn250" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn251" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn252" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn253" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn254" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn255" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn256" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn257" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn258" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn259" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn260" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn261" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn262" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn263" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn264" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn265" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn266" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn267" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn268" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn269" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn270" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn271" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn272" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn273" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn274" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn275" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn276" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn277" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn278" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn279" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn280" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn281" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn282" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn283" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn284" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn285" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn286" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn287" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn288" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn289" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn290" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn291" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn292" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn293" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn294" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn295" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn296" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn297" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn298" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn299" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn300" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn301" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn302" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn303" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn304" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn305" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn306" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn307" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn308" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn309" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn310" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn311" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn312" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn313" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn314" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn315" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn316" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn317" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn318" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn319" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn320" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn321" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn322" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn323" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn324" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn325" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn326" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn327" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn328" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn329" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn330" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn331" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn332" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn333" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn334" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn335" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn336" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn337" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn338" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn339" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn340" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn341" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn342" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+        <br>
+        <div class="row">
+            <button id="btn343" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn344" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn345" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn346" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn347" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn348" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn349" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn350" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn351" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn352" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn353" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn354" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn355" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn356" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn357" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn358" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn359" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn360" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+            <button id="btn361" type="button" class="buttonClass" src="images/WhitePiece_lg.png"></button>
+        </div>
+    </div>
 </body>
 </html>

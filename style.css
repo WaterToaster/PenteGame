@@ -1,0 +1,27 @@
+body
+{
+    text-align: center;
+}
+
+.row {
+    display: inline-block;
+}
+
+.buttonClass {
+    width: 25px;
+    height: 25px;
+}
+
+.board {
+    
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/Generic\ Felt\ Mat.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin:auto;
+    padding: 100px;
+    width: 1024px;
+}
