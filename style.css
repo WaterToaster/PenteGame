@@ -10,18 +10,16 @@ body
 .buttonClass {
     width: 25px;
     height: 25px;
+    margin: 10px;
+    margin-right: 11px;
+    margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 .board {
-    
-    text-align: center;
-    padding-bottom: 10px;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(images/Generic\ Felt\ Mat.jpeg);
+    background-image: url(images/PenteBoard_sm.png);
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    margin:auto;
+    height: 950px;
     padding: 100px;
-    width: 1024px;
 }
