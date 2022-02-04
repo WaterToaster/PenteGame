@@ -8,14 +8,21 @@ body
 }
 
 .buttonClass {
-    width: 25px;
+    width: 10px;
     height: 25px;
     margin: 10px;
     margin-right: 11px;
     margin-bottom: 15px;
     border-radius: 15px;
+    border: 4px solid #000;
+    border-radius: 100px;
+    text-align: center;
+    padding: 5px;
+    width: 45px;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
 }
-
 .board {
     background-image: url(images/PenteBoard_sm.png);
     background-position: center;
