@@ -363,16 +363,25 @@ var btnS19 = document.getElementById('btnS19')
 
 let turn = 0;
 
+function changeColor(btn){
+    console.log("Testing Color change")
+    btn.backgroundColor = 'rgb(0, 0, 0)'
 
+    
+}
 
 const handleClick = evt =>{
     console.log(evt.target.id);
 switch(turn){
     case 0:
     switch(evt.target.id){
-     case 'btnA1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+
+    case 'btnA1':
+        console.log("testing")
+        changeColor(btnA1);
+
+            //btnA1.style.borderColor = 'rgb(0, 0, 0)';
+            //btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnA2':
     btnA2.style.borderColor = 'rgb(0, 0, 0)';
@@ -447,1390 +456,1390 @@ switch(turn){
     btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn b
-     case'btnB1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    case'btnB1':
+    btnB1.style.borderColor = 'rgb(0, 0, 0)';
+    btnB1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
-     case 'btnB2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    case 'btnB2':
+    btnB2.style.borderColor = 'rgb(0, 0, 0)';
+    btnB2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
-     case 'btnB3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    case 'btnB3':
+    btnB3.style.borderColor = 'rgb(0, 0, 0)';
+    btnB3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB4' :
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB4.style.borderColor = 'rgb(0, 0, 0)';
+    btnB4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
-     case 'btnB5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    case 'btnB5':
+    btnB5.style.borderColor = 'rgb(0, 0, 0)';
+    btnB5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB6.style.borderColor = 'rgb(0, 0, 0)';
+    btnB6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB7.style.borderColor = 'rgb(0, 0, 0)';
+    btnB7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnB8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB8.style.borderColor = 'rgb(0, 0, 0)';
+    btnB8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnB9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB9.style.borderColor = 'rgb(0, 0, 0)';
+    btnB9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB10.style.borderColor = 'rgb(0, 0, 0)';
+    btnB10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB11.style.borderColor = 'rgb(0, 0, 0)';
+    btnB11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB12.style.borderColor = 'rgb(0, 0, 0)';
+    btnB12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB13.style.borderColor = 'rgb(0, 0, 0)';
+    btnB13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB14.style.borderColor = 'rgb(0, 0, 0)';
+    btnB14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB15.style.borderColor = 'rgb(0, 0, 0)';
+    btnB15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB16.style.borderColor = 'rgb(0, 0, 0)';
+    btnB16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB17.style.borderColor = 'rgb(0, 0, 0)';
+    btnB17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB18.style.borderColor = 'rgb(0, 0, 0)';
+    btnB18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnB19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnB19.style.borderColor = 'rgb(0, 0, 0)';
+    btnB19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn c
-     case'btnC1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    case'btnC1':
+    btnC1.style.borderColor = 'rgb(0, 0, 0)';
+    btnC1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC2.style.borderColor = 'rgb(0, 0, 0)';
+    btnC2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC3.style.borderColor = 'rgb(0, 0, 0)';
+    btnC3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC4.style.borderColor = 'rgb(0, 0, 0)';
+    btnC4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC5.style.borderColor = 'rgb(0, 0, 0)';
+    btnC5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC6.style.borderColor = 'rgb(0, 0, 0)';
+    btnC6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC7.style.borderColor = 'rgb(0, 0, 0)';
+    btnC7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnC8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC8.style.borderColor = 'rgb(0, 0, 0)';
+    btnC8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnC9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC9.style.borderColor = 'rgb(0, 0, 0)';
+    btnC9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC10.style.borderColor = 'rgb(0, 0, 0)';
+    btnC10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC11.style.borderColor = 'rgb(0, 0, 0)';
+    btnC11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC12.style.borderColor = 'rgb(0, 0, 0)';
+    btnC12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC13.style.borderColor = 'rgb(0, 0, 0)';
+    btnC13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC14.style.borderColor = 'rgb(0, 0, 0)';
+    btnC14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC15.style.borderColor = 'rgb(0, 0, 0)';
+    btnC15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC16.style.borderColor = 'rgb(0, 0, 0)';
+    btnC16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC17.style.borderColor = 'rgb(0, 0, 0)';
+    btnC17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC18.style.borderColor = 'rgb(0, 0, 0)';
+    btnC18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnC19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnC19.style.borderColor = 'rgb(0, 0, 0)';
+    btnC19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn d
      case'btnD1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD1.style.borderColor = 'rgb(0, 0, 0)';
+    btnD1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD2.style.borderColor = 'rgb(0, 0, 0)';
+    btnD2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD3.style.borderColor = 'rgb(0, 0, 0)';
+    btnD3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD4.style.borderColor = 'rgb(0, 0, 0)';
+    btnD4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD5.style.borderColor = 'rgb(0, 0, 0)';
+    btnD5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD6.style.borderColor = 'rgb(0, 0, 0)';
+    btnD6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD7.style.borderColor = 'rgb(0, 0, 0)';
+    btnD7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnD8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD8.style.borderColor = 'rgb(0, 0, 0)';
+    btnD8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnD9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD9.style.borderColor = 'rgb(0, 0, 0)';
+    btnD9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD10.style.borderColor = 'rgb(0, 0, 0)';
+    btnD10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD11.style.borderColor = 'rgb(0, 0, 0)';
+    btnD11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD12.style.borderColor = 'rgb(0, 0, 0)';
+    btnD12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD13.style.borderColor = 'rgb(0, 0, 0)';
+    btnD13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD14.style.borderColor = 'rgb(0, 0, 0)';
+    btnD14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD15.style.borderColor = 'rgb(0, 0, 0)';
+    btnD15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD16.style.borderColor = 'rgb(0, 0, 0)';
+    btnD16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD17.style.borderColor = 'rgb(0, 0, 0)';
+    btnD17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD18.style.borderColor = 'rgb(0, 0, 0)';
+    btnD18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnD19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnD19.style.borderColor = 'rgb(0, 0, 0)';
+    btnD19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn e
      case'btnE1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE1.style.borderColor = 'rgb(0, 0, 0)';
+    btnE1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE2.style.borderColor = 'rgb(0, 0, 0)';
+    btnE2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE3.style.borderColor = 'rgb(0, 0, 0)';
+    btnE3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE4.style.borderColor = 'rgb(0, 0, 0)';
+    btnE4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE5.style.borderColor = 'rgb(0, 0, 0)';
+    btnE5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE6.style.borderColor = 'rgb(0, 0, 0)';
+    btnE6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE7.style.borderColor = 'rgb(0, 0, 0)';
+    btnE7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnE8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE8.style.borderColor = 'rgb(0, 0, 0)';
+    btnE8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnE9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE9.style.borderColor = 'rgb(0, 0, 0)';
+    btnE9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE10.style.borderColor = 'rgb(0, 0, 0)';
+    btnE10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE11.style.borderColor = 'rgb(0, 0, 0)';
+    btnE11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE12.style.borderColor = 'rgb(0, 0, 0)';
+    btnE12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE13.style.borderColor = 'rgb(0, 0, 0)';
+    btnE13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE14.style.borderColor = 'rgb(0, 0, 0)';
+    btnE14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE15.style.borderColor = 'rgb(0, 0, 0)';
+    btnE15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE16.style.borderColor = 'rgb(0, 0, 0)';
+    btnE16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE17.style.borderColor = 'rgb(0, 0, 0)';
+    btnE17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE18.style.borderColor = 'rgb(0, 0, 0)';
+    btnE18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnE19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnE19.style.borderColor = 'rgb(0, 0, 0)';
+    btnE19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn f
-     case'btnF1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    case'btnF1':
+    btnF1.style.borderColor = 'rgb(0, 0, 0)';
+    btnF1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF2.style.borderColor = 'rgb(0, 0, 0)';
+    btnF2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF3.style.borderColor = 'rgb(0, 0, 0)';
+    btnF3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF4.style.borderColor = 'rgb(0, 0, 0)';
+    btnF4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF5.style.borderColor = 'rgb(0, 0, 0)';
+    btnF5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF6.style.borderColor = 'rgb(0, 0, 0)';
+    btnF6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF7.style.borderColor = 'rgb(0, 0, 0)';
+    btnF7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnF8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF8.style.borderColor = 'rgb(0, 0, 0)';
+    btnF8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnF9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF9.style.borderColor = 'rgb(0, 0, 0)';
+    btnF9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF10.style.borderColor = 'rgb(0, 0, 0)';
+    btnF10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF11.style.borderColor = 'rgb(0, 0, 0)';
+    btnF11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF12.style.borderColor = 'rgb(0, 0, 0)';
+    btnF12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF13.style.borderColor = 'rgb(0, 0, 0)';
+    btnF13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF14.style.borderColor = 'rgb(0, 0, 0)';
+    btnF14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF15.style.borderColor = 'rgb(0, 0, 0)';
+    btnF15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF16.style.borderColor = 'rgb(0, 0, 0)';
+    btnF16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF17.style.borderColor = 'rgb(0, 0, 0)';
+    btnF17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF18.style.borderColor = 'rgb(0, 0, 0)';
+    btnF18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnF19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnF19.style.borderColor = 'rgb(0, 0, 0)';
+    btnF19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn g
      case'btnG1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG1.style.borderColor = 'rgb(0, 0, 0)';
+    btnG1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG2.style.borderColor = 'rgb(0, 0, 0)';
+    btnG2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG3.style.borderColor = 'rgb(0, 0, 0)';
+    btnG3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG4.style.borderColor = 'rgb(0, 0, 0)';
+    btnG4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG5.style.borderColor = 'rgb(0, 0, 0)';
+    btnG5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG6.style.borderColor = 'rgb(0, 0, 0)';
+    btnG6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG7.style.borderColor = 'rgb(0, 0, 0)';
+    btnG7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnG8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG8.style.borderColor = 'rgb(0, 0, 0)';
+    btnG8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnG9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG9.style.borderColor = 'rgb(0, 0, 0)';
+    btnG9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG10.style.borderColor = 'rgb(0, 0, 0)';
+    btnG10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG11.style.borderColor = 'rgb(0, 0, 0)';
+    btnG11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG12.style.borderColor = 'rgb(0, 0, 0)';
+    btnG12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG13.style.borderColor = 'rgb(0, 0, 0)';
+    btnG13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG14.style.borderColor = 'rgb(0, 0, 0)';
+    btnG14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG15.style.borderColor = 'rgb(0, 0, 0)';
+    btnG15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG16.style.borderColor = 'rgb(0, 0, 0)';
+    btnG16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG17.style.borderColor = 'rgb(0, 0, 0)';
+    btnG17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG18.style.borderColor = 'rgb(0, 0, 0)';
+    btnG18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnG19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnG19.style.borderColor = 'rgb(0, 0, 0)';
+    btnG19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn h
      case'btnH1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH1.style.borderColor = 'rgb(0, 0, 0)';
+    btnH1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH2.style.borderColor = 'rgb(0, 0, 0)';
+    btnH2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH3.style.borderColor = 'rgb(0, 0, 0)';
+    btnH3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH4.style.borderColor = 'rgb(0, 0, 0)';
+    btnH4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH5.style.borderColor = 'rgb(0, 0, 0)';
+    btnH5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH6.style.borderColor = 'rgb(0, 0, 0)';
+    btnH6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH7.style.borderColor = 'rgb(0, 0, 0)';
+    btnH7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnH8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH8.style.borderColor = 'rgb(0, 0, 0)';
+    btnH8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnH9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH9.style.borderColor = 'rgb(0, 0, 0)';
+    btnH9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH10.style.borderColor = 'rgb(0, 0, 0)';
+    btnH10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH11.style.borderColor = 'rgb(0, 0, 0)';
+    btnH11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH12.style.borderColor = 'rgb(0, 0, 0)';
+    btnH12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH13.style.borderColor = 'rgb(0, 0, 0)';
+    btnH13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH14.style.borderColor = 'rgb(0, 0, 0)';
+    btnH14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH15.style.borderColor = 'rgb(0, 0, 0)';
+    btnH15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH16.style.borderColor = 'rgb(0, 0, 0)';
+    btnH16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH17.style.borderColor = 'rgb(0, 0, 0)';
+    btnH17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH18.style.borderColor = 'rgb(0, 0, 0)';
+    btnH18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnH19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnH19.style.borderColor = 'rgb(0, 0, 0)';
+    btnH19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn i
      case'btnI1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI1.style.borderColor = 'rgb(0, 0, 0)';
+    btnI1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI2.style.borderColor = 'rgb(0, 0, 0)';
+    btnI2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI3.style.borderColor = 'rgb(0, 0, 0)';
+    btnI3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI4.style.borderColor = 'rgb(0, 0, 0)';
+    btnI4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI5.style.borderColor = 'rgb(0, 0, 0)';
+    btnI5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI6.style.borderColor = 'rgb(0, 0, 0)';
+    btnI6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI7.style.borderColor = 'rgb(0, 0, 0)';
+    btnI7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnI8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI8.style.borderColor = 'rgb(0, 0, 0)';
+    btnI8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnI9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI9.style.borderColor = 'rgb(0, 0, 0)';
+    btnI9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI10.style.borderColor = 'rgb(0, 0, 0)';
+    btnI10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI11.style.borderColor = 'rgb(0, 0, 0)';
+    btnI11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI12.style.borderColor = 'rgb(0, 0, 0)';
+    btnI12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI13.style.borderColor = 'rgb(0, 0, 0)';
+    btnI13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI14.style.borderColor = 'rgb(0, 0, 0)';
+    btnI14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI15.style.borderColor = 'rgb(0, 0, 0)';
+    btnI15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI16.style.borderColor = 'rgb(0, 0, 0)';
+    btnI16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI17.style.borderColor = 'rgb(0, 0, 0)';
+    btnI17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI18.style.borderColor = 'rgb(0, 0, 0)';
+    btnI18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnI19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnI19.style.borderColor = 'rgb(0, 0, 0)';
+    btnI19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn j
      case'btnJ1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ1.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ2.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ3.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ4.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ5.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ6.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ7.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnJ8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ8.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnJ9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ9.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ10.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ11.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ12.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ13.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ14.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ15.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ16.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ17.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ18.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnJ19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnJ19.style.borderColor = 'rgb(0, 0, 0)';
+    btnJ19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn k
      case'btnK1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK1.style.borderColor = 'rgb(0, 0, 0)';
+    btnK1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK2.style.borderColor = 'rgb(0, 0, 0)';
+    btnK2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK3.style.borderColor = 'rgb(0, 0, 0)';
+    btnK3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK4.style.borderColor = 'rgb(0, 0, 0)';
+    btnK4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK5.style.borderColor = 'rgb(0, 0, 0)';
+    btnK5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK6.style.borderColor = 'rgb(0, 0, 0)';
+    btnK6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK7.style.borderColor = 'rgb(0, 0, 0)';
+    btnK7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnK8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK8.style.borderColor = 'rgb(0, 0, 0)';
+    btnK8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnK9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK9.style.borderColor = 'rgb(0, 0, 0)';
+    btnK9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK10.style.borderColor = 'rgb(0, 0, 0)';
+    btnK10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK11.style.borderColor = 'rgb(0, 0, 0)';
+    btnK11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK12.style.borderColor = 'rgb(0, 0, 0)';
+    btnK12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK13.style.borderColor = 'rgb(0, 0, 0)';
+    btnK13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK14.style.borderColor = 'rgb(0, 0, 0)';
+    btnK14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK15.style.borderColor = 'rgb(0, 0, 0)';
+    btnK15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK16.style.borderColor = 'rgb(0, 0, 0)';
+    btnK16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK17.style.borderColor = 'rgb(0, 0, 0)';
+    btnK17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK18.style.borderColor = 'rgb(0, 0, 0)';
+    btnK18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnK19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnK19.style.borderColor = 'rgb(0, 0, 0)';
+    btnK19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn l
     case 'btnL1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL1.style.borderColor = 'rgb(0, 0, 0)';
+    btnL1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL2.style.borderColor = 'rgb(0, 0, 0)';
+    btnL2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL3.style.borderColor = 'rgb(0, 0, 0)';
+    btnL3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL4.style.borderColor = 'rgb(0, 0, 0)';
+    btnL4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL5.style.borderColor = 'rgb(0, 0, 0)';
+    btnL5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL6.style.borderColor = 'rgb(0, 0, 0)';
+    btnL6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL7.style.borderColor = 'rgb(0, 0, 0)';
+    btnL7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnL8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL8.style.borderColor = 'rgb(0, 0, 0)';
+    btnL8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnL9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL9.style.borderColor = 'rgb(0, 0, 0)';
+    btnL9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL10.style.borderColor = 'rgb(0, 0, 0)';
+    btnL10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL11.style.borderColor = 'rgb(0, 0, 0)';
+    btnL11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL12.style.borderColor = 'rgb(0, 0, 0)';
+    btnL12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL13.style.borderColor = 'rgb(0, 0, 0)';
+    btnL13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL14.style.borderColor = 'rgb(0, 0, 0)';
+    btnL14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL15.style.borderColor = 'rgb(0, 0, 0)';
+    btnL15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL16.style.borderColor = 'rgb(0, 0, 0)';
+    btnL16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL17.style.borderColor = 'rgb(0, 0, 0)';
+    btnL17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL18.style.borderColor = 'rgb(0, 0, 0)';
+    btnL18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnL19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnL19.style.borderColor = 'rgb(0, 0, 0)';
+    btnL19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn m
     case 'btnM1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM1.style.borderColor = 'rgb(0, 0, 0)';
+    btnM1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM2.style.borderColor = 'rgb(0, 0, 0)';
+    btnM2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM3.style.borderColor = 'rgb(0, 0, 0)';
+    btnM3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM4.style.borderColor = 'rgb(0, 0, 0)';
+    btnM4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM5.style.borderColor = 'rgb(0, 0, 0)';
+    btnM5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM6.style.borderColor = 'rgb(0, 0, 0)';
+    btnM6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM7.style.borderColor = 'rgb(0, 0, 0)';
+    btnM7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnM8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM8.style.borderColor = 'rgb(0, 0, 0)';
+    btnM8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnM9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM9.style.borderColor = 'rgb(0, 0, 0)';
+    btnM9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM10.style.borderColor = 'rgb(0, 0, 0)';
+    btnM10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM11.style.borderColor = 'rgb(0, 0, 0)';
+    btnM11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM12.style.borderColor = 'rgb(0, 0, 0)';
+    btnM12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM13.style.borderColor = 'rgb(0, 0, 0)';
+    btnM13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM14.style.borderColor = 'rgb(0, 0, 0)';
+    btnM14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM15.style.borderColor = 'rgb(0, 0, 0)';
+    btnM15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM16.style.borderColor = 'rgb(0, 0, 0)';
+    btnM16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM17.style.borderColor = 'rgb(0, 0, 0)';
+    btnM17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM18.style.borderColor = 'rgb(0, 0, 0)';
+    btnM18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnM19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnM19.style.borderColor = 'rgb(0, 0, 0)';
+    btnM19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn n
     case 'btnN1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN1.style.borderColor = 'rgb(0, 0, 0)';
+    btnN1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN2.style.borderColor = 'rgb(0, 0, 0)';
+    btnN2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN3.style.borderColor = 'rgb(0, 0, 0)';
+    btnN3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN4.style.borderColor = 'rgb(0, 0, 0)';
+    btnN4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN5.style.borderColor = 'rgb(0, 0, 0)';
+    btnN5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN6.style.borderColor = 'rgb(0, 0, 0)';
+    btnN6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN7.style.borderColor = 'rgb(0, 0, 0)';
+    btnN7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnN8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN8.style.borderColor = 'rgb(0, 0, 0)';
+    btnN8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnN9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN9.style.borderColor = 'rgb(0, 0, 0)';
+    btnN9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN10.style.borderColor = 'rgb(0, 0, 0)';
+    btnN10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN11.style.borderColor = 'rgb(0, 0, 0)';
+    btnN11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN12.style.borderColor = 'rgb(0, 0, 0)';
+    btnN12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN13.style.borderColor = 'rgb(0, 0, 0)';
+    btnN13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN14.style.borderColor = 'rgb(0, 0, 0)';
+    btnN14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN15.style.borderColor = 'rgb(0, 0, 0)';
+    btnN15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN16.style.borderColor = 'rgb(0, 0, 0)';
+    btnN16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN17.style.borderColor = 'rgb(0, 0, 0)';
+    btnN17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN18.style.borderColor = 'rgb(0, 0, 0)';
+    btnN18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnN19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnN19.style.borderColor = 'rgb(0, 0, 0)';
+    btnN19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn o
     case 'btnO1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO1.style.borderColor = 'rgb(0, 0, 0)';
+    btnO1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO2.style.borderColor = 'rgb(0, 0, 0)';
+    btnO2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO3.style.borderColor = 'rgb(0, 0, 0)';
+    btnO3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO4.style.borderColor = 'rgb(0, 0, 0)';
+    btnO4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO5.style.borderColor = 'rgb(0, 0, 0)';
+    btnO5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO6.style.borderColor = 'rgb(0, 0, 0)';
+    btnO6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO7.style.borderColor = 'rgb(0, 0, 0)';
+    btnO7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnO8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO8.style.borderColor = 'rgb(0, 0, 0)';
+    btnO8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnO9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO9.style.borderColor = 'rgb(0, 0, 0)';
+    btnO9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO10.style.borderColor = 'rgb(0, 0, 0)';
+    btnO10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO11.style.borderColor = 'rgb(0, 0, 0)';
+    btnO11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO12.style.borderColor = 'rgb(0, 0, 0)';
+    btnO12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO13.style.borderColor = 'rgb(0, 0, 0)';
+    btnO13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO14.style.borderColor = 'rgb(0, 0, 0)';
+    btnO14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO15.style.borderColor = 'rgb(0, 0, 0)';
+    btnO15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO16.style.borderColor = 'rgb(0, 0, 0)';
+    btnO16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO17.style.borderColor = 'rgb(0, 0, 0)';
+    btnO17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO18.style.borderColor = 'rgb(0, 0, 0)';
+    btnO18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnO19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnO19.style.borderColor = 'rgb(0, 0, 0)';
+    btnO19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn p
     case 'btnP1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP1.style.borderColor = 'rgb(0, 0, 0)';
+    btnP1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP2.style.borderColor = 'rgb(0, 0, 0)';
+    btnP2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP3.style.borderColor = 'rgb(0, 0, 0)';
+    btnP3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP4.style.borderColor = 'rgb(0, 0, 0)';
+    btnP4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP5.style.borderColor = 'rgb(0, 0, 0)';
+    btnP5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP6.style.borderColor = 'rgb(0, 0, 0)';
+    btnP6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP7.style.borderColor = 'rgb(0, 0, 0)';
+    btnP7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnP8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP8.style.borderColor = 'rgb(0, 0, 0)';
+    btnP8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnP9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP9.style.borderColor = 'rgb(0, 0, 0)';
+    btnP9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP10.style.borderColor = 'rgb(0, 0, 0)';
+    btnP10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP11.style.borderColor = 'rgb(0, 0, 0)';
+    btnP11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP12.style.borderColor = 'rgb(0, 0, 0)';
+    btnP12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP13.style.borderColor = 'rgb(0, 0, 0)';
+    btnP13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP14.style.borderColor = 'rgb(0, 0, 0)';
+    btnP14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP15.style.borderColor = 'rgb(0, 0, 0)';
+    btnP15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP16.style.borderColor = 'rgb(0, 0, 0)';
+    btnP16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP17.style.borderColor = 'rgb(0, 0, 0)';
+    btnP17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnP18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnP18.style.borderColor = 'rgb(0, 0, 0)';
+    btnP18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
-    case 'btnQ19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    case 'btnP19':
+    btnP19.style.borderColor = 'rgb(0, 0, 0)';
+    btnP19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn q
     case 'btnQ1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ1.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ2.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ3.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ4.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ5.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ6.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ7.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnQ8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ8.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnQ9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ9.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ10.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ11.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ12.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ13.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ14.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ15.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ16.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ17.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ18.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnQ19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnQ19.style.borderColor = 'rgb(0, 0, 0)';
+    btnQ19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn r
     case 'btnR1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR1.style.borderColor = 'rgb(0, 0, 0)';
+    btnR1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR2.style.borderColor = 'rgb(0, 0, 0)';
+    btnR2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR3.style.borderColor = 'rgb(0, 0, 0)';
+    btnR3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR4.style.borderColor = 'rgb(0, 0, 0)';
+    btnR4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR5.style.borderColor = 'rgb(0, 0, 0)';
+    btnR5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR6.style.borderColor = 'rgb(0, 0, 0)';
+    btnR6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR7.style.borderColor = 'rgb(0, 0, 0)';
+    btnR7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnR8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR8.style.borderColor = 'rgb(0, 0, 0)';
+    btnR8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnR9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR9.style.borderColor = 'rgb(0, 0, 0)';
+    btnR9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR10.style.borderColor = 'rgb(0, 0, 0)';
+    btnR10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR11.style.borderColor = 'rgb(0, 0, 0)';
+    btnR11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR12.style.borderColor = 'rgb(0, 0, 0)';
+    btnR12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR13.style.borderColor = 'rgb(0, 0, 0)';
+    btnR13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR14.style.borderColor = 'rgb(0, 0, 0)';
+    btnR14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR15.style.borderColor = 'rgb(0, 0, 0)';
+    btnR15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR16.style.borderColor = 'rgb(0, 0, 0)';
+    btnR16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR17.style.borderColor = 'rgb(0, 0, 0)';
+    btnR17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR18.style.borderColor = 'rgb(0, 0, 0)';
+    btnR18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnR19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnR19.style.borderColor = 'rgb(0, 0, 0)';
+    btnR19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     //btn s
     case 'btnS1':
-    btnA1.style.borderColor = 'rgb(0, 0, 0)';
-    btnA1.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS1.style.borderColor = 'rgb(0, 0, 0)';
+    btnS1.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS2':
-    btnA2.style.borderColor = 'rgb(0, 0, 0)';
-    btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS2.style.borderColor = 'rgb(0, 0, 0)';
+    btnS2.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS3':
-    btnA3.style.borderColor = 'rgb(0, 0, 0)';
-    btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS3.style.borderColor = 'rgb(0, 0, 0)';
+    btnS3.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS4':
-    btnA4.style.borderColor = 'rgb(0, 0, 0)';
-    btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS4.style.borderColor = 'rgb(0, 0, 0)';
+    btnS4.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS5':
-    btnA5.style.borderColor = 'rgb(0, 0, 0)';
-    btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS5.style.borderColor = 'rgb(0, 0, 0)';
+    btnS5.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS6':
-    btnA6.style.borderColor = 'rgb(0, 0, 0)';
-    btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS6.style.borderColor = 'rgb(0, 0, 0)';
+    btnS6.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS7':
-    btnA7.style.borderColor = 'rgb(0, 0, 0)';
-    btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS7.style.borderColor = 'rgb(0, 0, 0)';
+    btnS7.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnS8':
-    btnA8.style.borderColor = 'rgb(0, 0, 0)';
-    btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS8.style.borderColor = 'rgb(0, 0, 0)';
+    btnS8.style.backgroundColor = 'rgb(0, 0, 0)';
     break; 
     case 'btnS9':
-    btnA9.style.borderColor = 'rgb(0, 0, 0)';
-    btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS9.style.borderColor = 'rgb(0, 0, 0)';
+    btnS9.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS10':
-    btnA10.style.borderColor = 'rgb(0, 0, 0)';
-    btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS10.style.borderColor = 'rgb(0, 0, 0)';
+    btnS10.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS11':
-    btnA11.style.borderColor = 'rgb(0, 0, 0)';
-    btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS11.style.borderColor = 'rgb(0, 0, 0)';
+    btnS11.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS12':
-    btnA12.style.borderColor = 'rgb(0, 0, 0)';
-    btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS12.style.borderColor = 'rgb(0, 0, 0)';
+    btnS12.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS13':
-    btnA13.style.borderColor = 'rgb(0, 0, 0)';
-    btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS13.style.borderColor = 'rgb(0, 0, 0)';
+    btnS13.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS14':
-    btnA14.style.borderColor = 'rgb(0, 0, 0)';
-    btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS14.style.borderColor = 'rgb(0, 0, 0)';
+    btnS14.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS15':
-    btnA15.style.borderColor = 'rgb(0, 0, 0)';
-    btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS15.style.borderColor = 'rgb(0, 0, 0)';
+    btnS15.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS16':
-    btnA16.style.borderColor = 'rgb(0, 0, 0)';
-    btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS16.style.borderColor = 'rgb(0, 0, 0)';
+    btnS16.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS17':
-    btnA17.style.borderColor = 'rgb(0, 0, 0)';
-    btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS17.style.borderColor = 'rgb(0, 0, 0)';
+    btnS17.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS18':
-    btnA18.style.borderColor = 'rgb(0, 0, 0)';
-    btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS18.style.borderColor = 'rgb(0, 0, 0)';
+    btnS18.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
     case 'btnS19':
-    btnA19.style.borderColor = 'rgb(0, 0, 0)';
-    btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+    btnS19.style.borderColor = 'rgb(0, 0, 0)';
+    btnS19.style.backgroundColor = 'rgb(0, 0, 0)';
     break;
 
     }   
@@ -1838,1489 +1847,1489 @@ switch(turn){
     break;
     case 1:
         switch(evt.target.id){
-             case 'btnA1':
+            case 'btnA1':
             btnA1.style.borderColor = '#fff';
             btnA1.style.backgroundColor = '#fff';
             break;
             case 'btnA2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA2.style.borderColor = '#fff';
+            btnA2.style.backgroundColor = '#fff';
             break;
             case 'btnA3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA3.style.borderColor = '#fff';
+            btnA3.style.backgroundColor = '#fff';
             break;
             case 'btnA4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA4.style.borderColor = '#fff';
+            btnA4.style.backgroundColor = '#fff';
             break;
             case 'btnA5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA5.style.borderColor = '#fff';
+            btnA5.style.backgroundColor = '#fff';
             break;
             case 'btnA6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA6.style.borderColor = '#fff';
+            btnA6.style.backgroundColor = '#fff';
             break;
             case 'btnA7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA7.style.borderColor = '#fff';
+            btnA7.style.backgroundColor = '#fff';
             break; 
             case 'btnA8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA8.style.borderColor = '#fff';
+            btnA8.style.backgroundColor = '#fff';
             break; 
             case 'btnA9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA9.style.borderColor = '#fff';
+            btnA9.style.backgroundColor = '#fff';
             break;
             case 'btnA10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA10.style.borderColor = '#fff';
+            btnA10.style.backgroundColor = '#fff';
             break;
             case 'btnA11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA11.style.borderColor = '#fff';
+            btnA11.style.backgroundColor = '#fff';
             break;
             case 'btnA12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA12.style.borderColor = '#fff';
+            btnA12.style.backgroundColor = '#fff';
             break;
             case 'btnA13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA13.style.borderColor = '#fff';
+            btnA13.style.backgroundColor = '#fff';
             break;
             case 'btnA14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA14.style.borderColor = '#fff';
+            btnA14.style.backgroundColor = '#fff';
             break;
             case 'btnA15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA15.style.borderColor = '#fff';
+            btnA15.style.backgroundColor = '#fff';
             break;
             case 'btnA16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA16.style.borderColor = '#fff';
+            btnA16.style.backgroundColor = '#fff';
             break;
             case 'btnA17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA17.style.borderColor = '#fff';
+            btnA17.style.backgroundColor = '#fff';
             break;
             case 'btnA18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA18.style.borderColor = '#fff';
+            btnA18.style.backgroundColor = '#fff';
             break;
             case 'btnA19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnA19.style.borderColor = '#fff';
+            btnA19.style.backgroundColor = '#fff';
             break;
             //btns b
             case 'btnB1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnB1.style.borderColor = '#fff';
+            btnB1.style.backgroundColor = '#fff';
             break;
             case 'btnB2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB2.style.borderColor = '#fff';
+            btnB2.style.backgroundColor = '#fff';
             break;
             case 'btnB3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB3.style.borderColor = '#fff';
+            btnB3.style.backgroundColor = '#fff';
             break;
             case 'btnB4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB4.style.borderColor = '#fff';
+            btnB4.style.backgroundColor = '#fff';
             break;
             case 'btnB5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB5.style.borderColor = '#fff';
+            btnB5.style.backgroundColor = '#fff';
             break;
             case 'btnB6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB6.style.borderColor = '#fff';
+            btnB6.style.backgroundColor = '#fff';
             break;
             case 'btnB7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB7.style.borderColor = '#fff';
+            btnB7.style.backgroundColor = '#fff';
             break; 
             case 'btnB8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB8.style.borderColor = '#fff';
+            btnB8.style.backgroundColor = '#fff';
             break; 
             case 'btnB9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB9.style.borderColor = '#fff';
+            btnB9.style.backgroundColor = '#fff';
             break;
             case 'btnB10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB10.style.borderColor = '#fff';
+            btnB10.style.backgroundColor = '#fff';
             break;
             case 'btnB11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB11.style.borderColor = '#fff';
+            btnB11.style.backgroundColor = '#fff';
             break;
             case 'btnB12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB12.style.borderColor = '#fff';
+            btnB12.style.backgroundColor = '#fff';
             break;
             case 'btnB13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB13.style.borderColor = '#fff';
+            btnB13.style.backgroundColor = '#fff';
             break;
             case 'btnB14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB14.style.borderColor = '#fff';
+            btnB14.style.backgroundColor = '#fff';
             break;
             case 'btnB15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB15.style.borderColor = '#fff';
+            btnB15.style.backgroundColor = '#fff';
             break;
             case 'btnB16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB16.style.borderColor = '#fff';
+            btnB16.style.backgroundColor = '#fff';
             break;
             case 'btnB17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB17.style.borderColor = '#fff';
+            btnB17.style.backgroundColor = '#fff';
             break;
             case 'btnB18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB18.style.borderColor = '#fff';
+            btnB18.style.backgroundColor = '#fff';
             break;
             case 'btnB19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnB19.style.borderColor = '#fff';
+            btnB19.style.backgroundColor = '#fff';
             break;
             //btns c
             case 'btnC1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnC1.style.borderColor = '#fff';
+            btnC1.style.backgroundColor = '#fff';
             break;
             case 'btnC2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC2.style.borderColor = '#fff';
+            btnC2.style.backgroundColor = '#fff';
             break;
             case 'btnC3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC3.style.borderColor = '#fff';
+            btnC3.style.backgroundColor = '#fff';
             break;
             case 'btnC4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC4.style.borderColor = '#fff';
+            btnC4.style.backgroundColor = '#fff';
             break;
             case 'btnC5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC5.style.borderColor = '#fff';
+            btnC5.style.backgroundColor = '#fff';
             break;
             case 'btnC6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC6.style.borderColor = '#fff';
+            btnC6.style.backgroundColor = '#fff';
             break;
             case 'btnC7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC7.style.borderColor = '#fff';
+            btnC7.style.backgroundColor = '#fff';
             break; 
             case 'btnC8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC8.style.borderColor = '#fff';
+            btnC8.style.backgroundColor = '#fff';
             break; 
             case 'btnC9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC9.style.borderColor = '#fff';
+            btnC9.style.backgroundColor = '#fff';
             break;
             case 'btnC10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC10.style.borderColor = '#fff';
+            btnC10.style.backgroundColor = '#fff';
             break;
             case 'btnC11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC11.style.borderColor = '#fff';
+            btnC11.style.backgroundColor = '#fff';
             break;
             case 'btnC12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC12.style.borderColor = '#fff';
+            btnC12.style.backgroundColor = '#fff';
             break;
             case 'btnC13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC13.style.borderColor = '#fff';
+            btnC13.style.backgroundColor = '#fff';
             break;
             case 'btnC14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC14.style.borderColor = '#fff';
+            btnC14.style.backgroundColor = '#fff';
             break;
             case 'btnC15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC15.style.borderColor = '#fff';
+            btnC15.style.backgroundColor = '#fff';
             break;
             case 'btnC16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC16.style.borderColor = '#fff';
+            btnC16.style.backgroundColor = '#fff';
             break;
             case 'btnC17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC17.style.borderColor = '#fff';
+            btnC17.style.backgroundColor = '#fff';
             break;
             case 'btnC18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnC18.style.borderColor = '#fff';
+            btnC18.style.backgroundColor = '#fff';
             break;
             case 'btnC19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD19.style.borderColor = '#fff';
+            btnD19.style.backgroundColor = '#fff';
             break;
             //btns d
             case 'btnD1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnD1.style.borderColor = '#fff';
+            btnD1.style.backgroundColor = '#fff';
             break;
             case 'btnD2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD2.style.borderColor = '#fff';
+            btnD2.style.backgroundColor = '#fff';
             break;
             case 'btnD3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD3.style.borderColor = '#fff';
+            btnD3.style.backgroundColor = '#fff';
             break;
             case 'btnD4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD4.style.borderColor = '#fff';
+            btnD4.style.backgroundColor = '#fff';
             break;
             case 'btnD5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD5.style.borderColor = '#fff';
+            btnD5.style.backgroundColor = '#fff';
             break;
             case 'btnD6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD6.style.borderColor = '#fff';
+            btnD6.style.backgroundColor = '#fff';
             break;
             case 'btnD7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD7.style.borderColor = '#fff';
+            btnD7.style.backgroundColor = '#fff';
             break; 
             case 'btnD8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD8.style.borderColor = '#fff';
+            btnD8.style.backgroundColor = '#fff';
             break; 
             case 'btnD9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD9.style.borderColor = '#fff';
+            btnD9.style.backgroundColor = '#fff';
             break;
             case 'btnD10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD10.style.borderColor = '#fff';
+            btnD10.style.backgroundColor = '#fff';
             break;
             case 'btnD11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD11.style.borderColor = '#fff';
+            btnD11.style.backgroundColor = '#fff';
             break;
             case 'btnD12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD12.style.borderColor = '#fff';
+            btnD12.style.backgroundColor = '#fff';
             break;
             case 'btnD13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD13.style.borderColor = '#fff';
+            btnD13.style.backgroundColor = '#fff';
             break;
             case 'btnD14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD14.style.borderColor = '#fff';
+            btnD14.style.backgroundColor = '#fff';
             break;
             case 'btnD15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD15.style.borderColor = '#fff';
+            btnD15.style.backgroundColor = '#fff';
             break;
             case 'btnD16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD16.style.borderColor = '#fff';
+            btnD16.style.backgroundColor = '#fff';
             break;
             case 'btnD17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD17.style.borderColor = '#fff';
+            btnD17.style.backgroundColor = '#fff';
             break;
             case 'btnD18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD18.style.borderColor = '#fff';
+            btnD18.style.backgroundColor = '#fff';
             break;
             case 'btnD19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnD19.style.borderColor = '#fff';
+            btnD19.style.backgroundColor = '#fff';
             break;
             //btns e
             case 'btnE1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnE1.style.borderColor = '#fff';
+            btnE1.style.backgroundColor = '#fff';
             break;
             case 'btnE2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE2.style.borderColor = '#fff';
+            btnE2.style.backgroundColor = '#fff';
             break;
             case 'btnE3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE3.style.borderColor = '#fff';
+            btnE3.style.backgroundColor = '#fff';
             break;
             case 'btnE4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE4.style.borderColor = '#fff';
+            btnE4.style.backgroundColor = '#fff';
             break;
             case 'btnE5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE5.style.borderColor = '#fff';
+            btnE5.style.backgroundColor = '#fff';
             break;
             case 'btnE6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE6.style.borderColor = '#fff';
+            btnE6.style.backgroundColor = '#fff';
             break;
             case 'btnE7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE7.style.borderColor = '#fff';
+            btnE7.style.backgroundColor = '#fff';
             break; 
             case 'btnE8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE8.style.borderColor = '#fff';
+            btnE8.style.backgroundColor = '#fff';
             break; 
             case 'btnE9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE9.style.borderColor = '#fff';
+            btnE9.style.backgroundColor = '#fff';
             break;
             case 'btnE10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE10.style.borderColor = '#fff';
+            btnE10.style.backgroundColor = '#fff';
             break;
             case 'btnE11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE11.style.borderColor = '#fff';
+            btnE11.style.backgroundColor = '#fff';
             break;
             case 'btnE12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE12.style.borderColor = '#fff';
+            btnE12.style.backgroundColor = '#fff';
             break;
             case 'btnE13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE13.style.borderColor = '#fff';
+            btnE13.style.backgroundColor = '#fff';
             break;
             case 'btnE14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE14.style.borderColor = '#fff';
+            btnE14.style.backgroundColor = '#fff';
             break;
             case 'btnE15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE15.style.borderColor = '#fff';
+            btnE15.style.backgroundColor = '#fff';
             break;
             case 'btnE16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE16.style.borderColor = '#fff';
+            btnE16.style.backgroundColor = '#fff';
             break;
             case 'btnE17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE17.style.borderColor = '#fff';
+            btnE17.style.backgroundColor = '#fff';
             break;
             case 'btnE18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE18.style.borderColor = '#fff';
+            btnE18.style.backgroundColor = '#fff';
             break;
             case 'btnE19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnE19.style.borderColor = '#fff';
+            btnE19.style.backgroundColor = '#fff';
             break;
             //btns f
             case 'btnF1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnF1.style.borderColor = '#fff';
+            btnF1.style.backgroundColor = '#fff';
             break;
             case 'btnF2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF2.style.borderColor = '#fff';
+            btnF2.style.backgroundColor = '#fff';
             break;
             case 'btnF3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF3.style.borderColor = '#fff';
+            btnF3.style.backgroundColor = '#fff';
             break;
             case 'btnF4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF4.style.borderColor = '#fff';
+            btnF4.style.backgroundColor = '#fff';
             break;
             case 'btnF5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF5.style.borderColor = '#fff';
+            btnF5.style.backgroundColor = '#fff';
             break;
             case 'btnF6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF6.style.borderColor = '#fff';
+            btnF6.style.backgroundColor = '#fff';
             break;
             case 'btnF7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF7.style.borderColor = '#fff';
+            btnF7.style.backgroundColor = '#fff';
             break; 
             case 'btnF8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF8.style.borderColor = '#fff';
+            btnF8.style.backgroundColor = '#fff';
             break; 
             case 'btnF9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF9.style.borderColor = '#fff';
+            btnF9.style.backgroundColor = '#fff';
             break;
             case 'btnF10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF10.style.borderColor = '#fff';
+            btnF10.style.backgroundColor = '#fff';
             break;
             case 'btnF11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF11.style.borderColor = '#fff';
+            btnF11.style.backgroundColor = '#fff';
             break;
             case 'btnF12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF12.style.borderColor = '#fff';
+            btnF12.style.backgroundColor = '#fff';
             break;
             case 'btnF13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF13.style.borderColor = '#fff';
+            btnF13.style.backgroundColor = '#fff';
             break;
             case 'btnF14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF14.style.borderColor = '#fff';
+            btnF14.style.backgroundColor = '#fff';
             break;
             case 'btnF15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF15.style.borderColor = '#fff';
+            btnF15.style.backgroundColor = '#fff';
             break;
             case 'btnF16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF16.style.borderColor = '#fff';
+            btnF16.style.backgroundColor = '#fff';
             break;
             case 'btnF17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF17.style.borderColor = '#fff';
+            btnF17.style.backgroundColor = '#fff';
             break;
             case 'btnF18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF18.style.borderColor = '#fff';
+            btnF18.style.backgroundColor = '#fff';
             break;
             case 'btnF19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnF19.style.borderColor = '#fff';
+            btnF19.style.backgroundColor = '#fff';
             break;
             //btns g
             case 'btnG1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnG1.style.borderColor = '#fff';
+            btnG1.style.backgroundColor = '#fff';
             break;
             case 'btnG2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG2.style.borderColor = '#fff';
+            btnG2.style.backgroundColor = '#fff';
             break;
             case 'btnG3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG3.style.borderColor = '#fff';
+            btnG3.style.backgroundColor = '#fff';
             break;
             case 'btnG4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG4.style.borderColor = '#fff';
+            btnG4.style.backgroundColor = '#fff';
             break;
             case 'btnG5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG5.style.borderColor = '#fff';
+            btnG5.style.backgroundColor = '#fff';
             break;
             case 'btnG6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG6.style.borderColor = '#fff';
+            btnG6.style.backgroundColor = '#fff';
             break;
             case 'btnG7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG7.style.borderColor = '#fff';
+            btnG7.style.backgroundColor = '#fff';
             break; 
             case 'btnG8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG8.style.borderColor = '#fff';
+            btnG8.style.backgroundColor = '#fff';
             break; 
             case 'btnG9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG9.style.borderColor = '#fff';
+            btnG9.style.backgroundColor = '#fff';
             break;
             case 'btnG10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG10.style.borderColor = '#fff';
+            btnG10.style.backgroundColor = '#fff';
             break;
             case 'btnG11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG11.style.borderColor = '#fff';
+            btnG11.style.backgroundColor = '#fff';
             break;
             case 'btnG12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG12.style.borderColor = '#fff';
+            btnG12.style.backgroundColor = '#fff';
             break;
             case 'btnG13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG13.style.borderColor = '#fff';
+            btnG13.style.backgroundColor = '#fff';
             break;
             case 'btnG14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG14.style.borderColor = '#fff';
+            btnG14.style.backgroundColor = '#fff';
             break;
             case 'btnG15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG15.style.borderColor = '#fff';
+            btnG15.style.backgroundColor = '#fff';
             break;
             case 'btnG16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG16.style.borderColor = '#fff';
+            btnG16.style.backgroundColor = '#fff';
             break;
             case 'btnG17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG17.style.borderColor = '#fff';
+            btnG17.style.backgroundColor = '#fff';
             break;
             case 'btnG18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG18.style.borderColor = '#fff';
+            btnG18.style.backgroundColor = '#fff';
             break;
             case 'btnG19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnG19.style.borderColor = '#fff';
+            btnG19.style.backgroundColor = '#fff';
             break;
             //btns h
             case 'btnH1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnH1.style.borderColor = '#fff';
+            btnH1.style.backgroundColor = '#fff';
             break;
             case 'btnH2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH2.style.borderColor = '#fff';
+            btnH2.style.backgroundColor = '#fff';
             break;
             case 'btnH3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH3.style.borderColor = '#fff';
+            btnH3.style.backgroundColor = '#fff';
             break;
             case 'btnH4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH4.style.borderColor = '#fff';
+            btnH4.style.backgroundColor = '#fff';
             break;
             case 'btnH5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH5.style.borderColor = '#fff';
+            btnH5.style.backgroundColor = '#fff';
             break;
             case 'btnH6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH6.style.borderColor = '#fff';
+            btnH6.style.backgroundColor = '#fff';
             break;
             case 'btnH7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH7.style.borderColor = '#fff';
+            btnH7.style.backgroundColor = '#fff';
             break; 
             case 'btnH8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH8.style.borderColor = '#fff';
+            btnH8.style.backgroundColor = '#fff';
             break; 
             case 'btnH9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH9.style.borderColor = '#fff';
+            btnH9.style.backgroundColor = '#fff';
             break;
             case 'btnH10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH10.style.borderColor = '#fff';
+            btnH10.style.backgroundColor = '#fff';
             break;
             case 'btnH11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH11.style.borderColor = '#fff';
+            btnH11.style.backgroundColor = '#fff';
             break;
             case 'btnH12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH12.style.borderColor = '#fff';
+            btnH12.style.backgroundColor = '#fff';
             break;
             case 'btnH13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH13.style.borderColor = '#fff';
+            btnH13.style.backgroundColor = '#fff';
             break;
             case 'btnH14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH14.style.borderColor = '#fff';
+            btnH14.style.backgroundColor = '#fff';
             break;
             case 'btnH15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH15.style.borderColor = '#fff';
+            btnH15.style.backgroundColor = '#fff';
             break;
             case 'btnH16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH16.style.borderColor = '#fff';
+            btnH16.style.backgroundColor = '#fff';
             break;
             case 'btnH17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH17.style.borderColor = '#fff';
+            btnH17.style.backgroundColor = '#fff';
             break;
             case 'btnH18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH18.style.borderColor = '#fff';
+            btnH18.style.backgroundColor = '#fff';
             break;
             case 'btnH19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnH19.style.borderColor = '#fff';
+            btnH19.style.backgroundColor = '#fff';
             break;
             //btns i
             case 'btnI1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnI1.style.borderColor = '#fff';
+            btnI1.style.backgroundColor = '#fff';
             break;
             case 'btnI2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI2.style.borderColor = '#fff';
+            btnI2.style.backgroundColor = '#fff';
             break;
             case 'btnI3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI3.style.borderColor = '#fff';
+            btnI3.style.backgroundColor = '#fff';
             break;
             case 'btnI4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI4.style.borderColor = '#fff';
+            btnI4.style.backgroundColor = '#fff';
             break;
             case 'btnI5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI5.style.borderColor = '#fff';
+            btnI5.style.backgroundColor = '#fff';
             break;
             case 'btnI6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI6.style.borderColor = '#fff';
+            btnI6.style.backgroundColor = '#fff';
             break;
             case 'btnI7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI7.style.borderColor = '#fff';
+            btnI7.style.backgroundColor = '#fff';
             break; 
             case 'btnI8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI8.style.borderColor = '#fff';
+            btnI8.style.backgroundColor = '#fff';
             break; 
             case 'btnI9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI9.style.borderColor = '#fff';
+            btnI9.style.backgroundColor = '#fff';
             break;
             case 'btnI10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI10.style.borderColor = '#fff';
+            btnI10.style.backgroundColor = '#fff';
             break;
             case 'btnI11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI11.style.borderColor = '#fff';
+            btnI11.style.backgroundColor = '#fff';
             break;
             case 'btnI12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI12.style.borderColor = '#fff';
+            btnI12.style.backgroundColor = '#fff';
             break;
             case 'btnI13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI13.style.borderColor = '#fff';
+            btnI13.style.backgroundColor = '#fff';
             break;
             case 'btnI14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI14.style.borderColor = '#fff';
+            btnI14.style.backgroundColor = '#fff';
             break;
             case 'btnI15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI15.style.borderColor = '#fff';
+            btnI15.style.backgroundColor = '#fff';
             break;
             case 'btnI16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI16.style.borderColor = '#fff';
+            btnI16.style.backgroundColor = '#fff';
             break;
             case 'btnI17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI17.style.borderColor = '#fff';
+            btnI17.style.backgroundColor = '#fff';
             break;
             case 'btnI18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI18.style.borderColor = '#fff';
+            btnI18.style.backgroundColor = '#fff';
             break;
             case 'btnI19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnI19.style.borderColor = '#fff';
+            btnI19.style.backgroundColor = '#fff';
             break;
             //btns j
             case 'btnJ1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnJ1.style.borderColor = '#fff';
+            btnJ1.style.backgroundColor = '#fff';
             break;
             case 'btnJ2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ2.style.borderColor = '#fff';
+            btnJ2.style.backgroundColor = '#fff';
             break;
             case 'btnJ3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ3.style.borderColor = '#fff';
+            btnJ3.style.backgroundColor = '#fff';
             break;
             case 'btnJ4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ4.style.borderColor = '#fff';
+            btnJ4.style.backgroundColor = '#fff';
             break;
             case 'btnJ5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ5.style.borderColor = '#fff';
+            btnJ5.style.backgroundColor = '#fff';
             break;
             case 'btnJ6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ6.style.borderColor = '#fff';
+            btnJ6.style.backgroundColor = '#fff';
             break;
             case 'btnJ7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ7.style.borderColor = '#fff';
+            btnJ7.style.backgroundColor = '#fff';
             break; 
             case 'btnJ8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ8.style.borderColor = '#fff';
+            btnJ8.style.backgroundColor = '#fff';
             break; 
             case 'btnJ9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ9.style.borderColor = '#fff';
+            btnJ9.style.backgroundColor = '#fff';
             break;
             case 'btnJ10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ10.style.borderColor = '#fff';
+            btnJ10.style.backgroundColor = '#fff';
             break;
             case 'btnJ11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ11.style.borderColor = '#fff';
+            btnJ11.style.backgroundColor = '#fff';
             break;
             case 'btnJ12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ12.style.borderColor = '#fff';
+            btnJ12.style.backgroundColor = '#fff';
             break;
             case 'btnJ13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ13.style.borderColor = '#fff';
+            btnJ13.style.backgroundColor = '#fff';
             break;
             case 'btnJ14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ14.style.borderColor = '#fff';
+            btnJ14.style.backgroundColor = '#fff';
             break;
             case 'btnJ15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ15.style.borderColor = '#fff';
+            btnJ15.style.backgroundColor = '#fff';
             break;
             case 'btnJ16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ16.style.borderColor = '#fff';
+            btnJ16.style.backgroundColor = '#fff';
             break;
             case 'btnJ17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ17.style.borderColor = '#fff';
+            btnJ17.style.backgroundColor = '#fff';
             break;
             case 'btnJ18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ18.style.borderColor = '#fff';
+            btnJ18.style.backgroundColor = '#fff';
             break;
             case 'btnJ19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnJ19.style.borderColor = '#fff';
+            btnJ19.style.backgroundColor = '#fff';
             break;
             //btns k
             case 'btnK1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnK1.style.borderColor = '#fff';
+            btnK1.style.backgroundColor = '#fff';
             break;
             case 'btnK2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK2.style.borderColor = '#fff';
+            btnK2.style.backgroundColor = '#fff';
             break;
             case 'btnK3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK3.style.borderColor = '#fff';
+            btnK3.style.backgroundColor = '#fff';
             break;
             case 'btnK4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK4.style.borderColor = '#fff';
+            btnK4.style.backgroundColor = '#fff';
             break;
             case 'btnK5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK5.style.borderColor = '#fff';
+            btnK5.style.backgroundColor = '#fff';
             break;
             case 'btnK6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK6.style.borderColor = '#fff';
+            btnK6.style.backgroundColor = '#fff';
             break;
             case 'btnK7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK7.style.borderColor = '#fff';
+            btnK7.style.backgroundColor = '#fff';
             break; 
             case 'btnK8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK8.style.borderColor = '#fff';
+            btnK8.style.backgroundColor = '#fff';
             break; 
             case 'btnK9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK9.style.borderColor = '#fff';
+            btnK9.style.backgroundColor = '#fff';
             break;
             case 'btnK10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK10.style.borderColor = '#fff';
+            btnK10.style.backgroundColor = '#fff';
             break;
             case 'btnK11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK11.style.borderColor = '#fff';
+            btnK11.style.backgroundColor = '#fff';
             break;
             case 'btnK12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK12.style.borderColor = '#fff';
+            btnK12.style.backgroundColor = '#fff';
             break;
             case 'btnK13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK13.style.borderColor = '#fff';
+            btnK13.style.backgroundColor = '#fff';
             break;
             case 'btnK14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK14.style.borderColor = '#fff';
+            btnK14.style.backgroundColor = '#fff';
             break;
             case 'btnK15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK15.style.borderColor = '#fff';
+            btnK15.style.backgroundColor = '#fff';
             break;
             case 'btnK16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK16.style.borderColor = '#fff';
+            btnK16.style.backgroundColor = '#fff';
             break;
             case 'btnK17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK17.style.borderColor = '#fff';
+            btnK17.style.backgroundColor = '#fff';
             break;
             case 'btnK18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK18.style.borderColor = '#fff';
+            btnK18.style.backgroundColor = '#fff';
             break;
             case 'btnK19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnK19.style.borderColor = '#fff';
+            btnK19.style.backgroundColor = '#fff';
             break;
             //btns l
             case 'btnL1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnL1.style.borderColor = '#fff';
+            btnL1.style.backgroundColor = '#fff';
             break;
             case 'btnL2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL2.style.borderColor = '#fff';
+            btnL2.style.backgroundColor = '#fff';
             break;
             case 'btnL3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL3.style.borderColor = '#fff';
+            btnL3.style.backgroundColor = '#fff';
             break;
             case 'btnL4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL4.style.borderColor = '#fff';
+            btnL4.style.backgroundColor = '#fff';
             break;
             case 'btnL5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL5.style.borderColor = '#fff';
+            btnL5.style.backgroundColor = '#fff';
             break;
             case 'btnL6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL6.style.borderColor = '#fff';
+            btnL6.style.backgroundColor = '#fff';
             break;
             case 'btnL7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL7.style.borderColor = '#fff';
+            btnL7.style.backgroundColor = '#fff';
             break; 
             case 'btnL8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL8.style.borderColor = '#fff';
+            btnL8.style.backgroundColor = '#fff';
             break; 
             case 'btnL9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL9.style.borderColor = '#fff';
+            btnL9.style.backgroundColor = '#fff';
             break;
             case 'btnL10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL10.style.borderColor = '#fff';
+            btnL10.style.backgroundColor = '#fff';
             break;
             case 'btnL11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL11.style.borderColor = '#fff';
+            btnL11.style.backgroundColor = '#fff';
             break;
             case 'btnL12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL12.style.borderColor = '#fff';
+            btnL12.style.backgroundColor = '#fff';
             break;
             case 'btnL13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL13.style.borderColor = '#fff';
+            btnL13.style.backgroundColor = '#fff';
             break;
             case 'btnL14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL14.style.borderColor = '#fff';
+            btnL14.style.backgroundColor = '#fff';
             break;
             case 'btnL15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL15.style.borderColor = '#fff';
+            btnL15.style.backgroundColor = '#fff';
             break;
             case 'btnL16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL16.style.borderColor = '#fff';
+            btnL16.style.backgroundColor = '#fff';
             break;
             case 'btnL17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL17.style.borderColor = '#fff';
+            btnL17.style.backgroundColor = '#fff';
             break;
             case 'btnL18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL18.style.borderColor = '#fff';
+            btnL18.style.backgroundColor = '#fff';
             break;
             case 'btnL19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnL19.style.borderColor = '#fff';
+            btnL19.style.backgroundColor = '#fff';
             break;
             //btns m
             case 'btnM1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnM1.style.borderColor = '#fff';
+            btnM1.style.backgroundColor = '#fff';
             break;
             case 'btnM2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM2.style.borderColor = '#fff';
+            btnM2.style.backgroundColor = '#fff';
             break;
             case 'btnM3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM3.style.borderColor = '#fff';
+            btnM3.style.backgroundColor = '#fff';
             break;
             case 'btnM4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM4.style.borderColor = '#fff';
+            btnM4.style.backgroundColor = '#fff';
             break;
             case 'btnM5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM5.style.borderColor = '#fff';
+            btnM5.style.backgroundColor = '#fff';
             break;
             case 'btnM6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM6.style.borderColor = '#fff';
+            btnM6.style.backgroundColor = '#fff';
             break;
             case 'btnM7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM7.style.borderColor = '#fff';
+            btnM7.style.backgroundColor = '#fff';
             break; 
             case 'btnM8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM8.style.borderColor = '#fff';
+            btnM8.style.backgroundColor = '#fff';
             break; 
             case 'btnM9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM9.style.borderColor = '#fff';
+            btnM9.style.backgroundColor = '#fff';
             break;
             case 'btnM10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM10.style.borderColor = '#fff';
+            btnM10.style.backgroundColor = '#fff';
             break;
             case 'btnM11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM11.style.borderColor = '#fff';
+            btnM11.style.backgroundColor = '#fff';
             break;
             case 'btnM12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM12.style.borderColor = '#fff';
+            btnM12.style.backgroundColor = '#fff';
             break;
             case 'btnM13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM13.style.borderColor = '#fff';
+            btnM13.style.backgroundColor = '#fff';
             break;
             case 'btnM14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM14.style.borderColor = '#fff';
+            btnM14.style.backgroundColor = '#fff';
             break;
             case 'btnM15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM15.style.borderColor = '#fff';
+            btnM15.style.backgroundColor = '#fff';
             break;
             case 'btnM16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM16.style.borderColor = '#fff';
+            btnM16.style.backgroundColor = '#fff';
             break;
             case 'btnM17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM17.style.borderColor = '#fff';
+            btnM17.style.backgroundColor = '#fff';
             break;
             case 'btnM18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM18.style.borderColor = '#fff';
+            btnM18.style.backgroundColor = '#fff';
             break;
             case 'btnM19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnM19.style.borderColor = '#fff';
+            btnM19.style.backgroundColor = '#fff';
             break;
             //btns n
             case 'btnN1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnN1.style.borderColor = '#fff';
+            btnN1.style.backgroundColor = '#fff';
             break;
             case 'btnN2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN2.style.borderColor = '#fff';
+            btnN2.style.backgroundColor = '#fff';
             break;
             case 'btnN3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN3.style.borderColor = '#fff';
+            btnN3.style.backgroundColor = '#fff';
             break;
             case 'btnN4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN4.style.borderColor = '#fff';
+            btnN4.style.backgroundColor = '#fff';
             break;
             case 'btnN5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN5.style.borderColor = '#fff';
+            btnN5.style.backgroundColor = '#fff';
             break;
             case 'btnN6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN6.style.borderColor = '#fff';
+            btnN6.style.backgroundColor = '#fff';
             break;
             case 'btnN7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN7.style.borderColor = '#fff';
+            btnN7.style.backgroundColor = '#fff';
             break; 
             case 'btnN8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN8.style.borderColor = '#fff';
+            btnN8.style.backgroundColor = '#fff';
             break; 
             case 'btnN9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN9.style.borderColor = '#fff';
+            btnN9.style.backgroundColor = '#fff';
             break;
             case 'btnN10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN10.style.borderColor = '#fff';
+            btnN10.style.backgroundColor = '#fff';
             break;
             case 'btnN11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN11.style.borderColor = '#fff';
+            btnN11.style.backgroundColor = '#fff';
             break;
             case 'btnN12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN12.style.borderColor = '#fff';
+            btnN12.style.backgroundColor = '#fff';
             break;
             case 'btnN13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN13.style.borderColor = '#fff';
+            btnN13.style.backgroundColor = '#fff';
             break;
             case 'btnN14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN14.style.borderColor = '#fff';
+            btnN14.style.backgroundColor = '#fff';
             break;
             case 'btnN15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN15.style.borderColor = '#fff';
+            btnN15.style.backgroundColor = '#fff';
             break;
             case 'btnN16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN16.style.borderColor = '#fff';
+            btnN16.style.backgroundColor = '#fff';
             break;
             case 'btnN17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN17.style.borderColor = '#fff';
+            btnN17.style.backgroundColor = '#fff';
             break;
             case 'btnN18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN18.style.borderColor = '#fff';
+            btnN18.style.backgroundColor = '#fff';
             break;
             case 'btnN19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnN19.style.borderColor = '#fff';
+            btnN19.style.backgroundColor = '#fff';
             break;
             //btns o
             case 'btnO1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnO1.style.borderColor = '#fff';
+            btnO1.style.backgroundColor = '#fff';
             break;
             case 'btnO2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO2.style.borderColor = '#fff';
+            btnO2.style.backgroundColor = '#fff';
             break;
             case 'btnO3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO3.style.borderColor = '#fff';
+            btnO3.style.backgroundColor = '#fff';
             break;
             case 'btnO4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO4.style.borderColor = '#fff';
+            btnO4.style.backgroundColor = '#fff';
             break;
             case 'btnO5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO5.style.borderColor = '#fff';
+            btnO5.style.backgroundColor = '#fff';
             break;
             case 'btnO6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO6.style.borderColor = '#fff';
+            btnO6.style.backgroundColor = '#fff';
             break;
             case 'btnO7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO7.style.borderColor = '#fff';
+            btnO7.style.backgroundColor = '#fff';
             break; 
             case 'btnO8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO8.style.borderColor = '#fff';
+            btnO8.style.backgroundColor = '#fff';
             break; 
             case 'btnO9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO9.style.borderColor = '#fff';
+            btnO9.style.backgroundColor = '#fff';
             break;
             case 'btnO10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO10.style.borderColor = '#fff';
+            btnO10.style.backgroundColor = '#fff';
             break;
             case 'btnO11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO11.style.borderColor = '#fff';
+            btnO11.style.backgroundColor = '#fff';
             break;
             case 'btnO12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO12.style.borderColor = '#fff';
+            btnO12.style.backgroundColor = '#fff';
             break;
             case 'btnO13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO13.style.borderColor = '#fff';
+            btnO13.style.backgroundColor = '#fff';
             break;
             case 'btnO14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO14.style.borderColor = '#fff';
+            btnO14.style.backgroundColor = '#fff';
             break;
             case 'btnO15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO15.style.borderColor = '#fff';
+            btnO15.style.backgroundColor = '#fff';
             break;
             case 'btnO16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO16.style.borderColor = '#fff';
+            btnO16.style.backgroundColor = '#fff';
             break;
             case 'btnO17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO17.style.borderColor = '#fff';
+            btnO17.style.backgroundColor = '#fff';
             break;
             case 'btnO18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO18.style.borderColor = '#fff';
+            btnO18.style.backgroundColor = '#fff';
             break;
             case 'btnO19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnO19.style.borderColor = '#fff';
+            btnO19.style.backgroundColor = '#fff';
             break;
             //btns p
             case 'btnP1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnP1.style.borderColor = '#fff';
+            btnP1.style.backgroundColor = '#fff';
             break;
             case 'btnP2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP2.style.borderColor = '#fff';
+            btnP2.style.backgroundColor = '#fff';
             break;
             case 'btnP3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP3.style.borderColor = '#fff';
+            btnP3.style.backgroundColor = '#fff';
             break;
             case 'btnP4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP4.style.borderColor = '#fff';
+            btnP4.style.backgroundColor = '#fff';
             break;
             case 'btnP5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP5.style.borderColor = '#fff';
+            btnP5.style.backgroundColor = '#fff';
             break;
             case 'btnP6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP6.style.borderColor = '#fff';
+            btnP6.style.backgroundColor = '#fff';
             break;
             case 'btnP7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP7.style.borderColor = '#fff';
+            btnP7.style.backgroundColor = '#fff';
             break; 
             case 'btnP8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP8.style.borderColor = '#fff';
+            btnP8.style.backgroundColor = '#fff';
             break; 
             case 'btnP9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP9.style.borderColor = '#fff';
+            btnP9.style.backgroundColor = '#fff';
             break;
             case 'btnP10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP10.style.borderColor = '#fff';
+            btnP10.style.backgroundColor = '#fff';
             break;
             case 'btnP11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP11.style.borderColor = '#fff';
+            btnP11.style.backgroundColor = '#fff';
             break;
             case 'btnP12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP12.style.borderColor = '#fff';
+            btnP12.style.backgroundColor = '#fff';
             break;
             case 'btnP13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP13.style.borderColor = '#fff';
+            btnP13.style.backgroundColor = '#fff';
             break;
             case 'btnP14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP14.style.borderColor = '#fff';
+            btnP14.style.backgroundColor = '#fff';
             break;
             case 'btnP15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP15.style.borderColor = '#fff';
+            btnP15.style.backgroundColor = '#fff';
             break;
             case 'btnP16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP16.style.borderColor = '#fff';
+            btnP16.style.backgroundColor = '#fff';
             break;
             case 'btnP17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP17.style.borderColor = '#fff';
+            btnP17.style.backgroundColor = '#fff';
             break;
             case 'btnP18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP18.style.borderColor = '#fff';
+            btnP18.style.backgroundColor = '#fff';
             break;
             case 'btnP19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnP19.style.borderColor = '#fff';
+            btnP19.style.backgroundColor = '#fff';
             break;
             //btns q
             case 'btnQ1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnQ1.style.borderColor = '#fff';
+            btnQ1.style.backgroundColor = '#fff';
             break;
             case 'btnQ2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ2.style.borderColor = '#fff';
+            btnQ2.style.backgroundColor = '#fff';
             break;
             case 'btnQ3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ3.style.borderColor = '#fff';
+            btnQ3.style.backgroundColor = '#fff';
             break;
             case 'btnQ4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ4.style.borderColor = '#fff';
+            btnQ4.style.backgroundColor = '#fff';
             break;
             case 'btnQ5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ5.style.borderColor = '#fff';
+            btnQ5.style.backgroundColor = '#fff';
             break;
             case 'btnQ6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ6.style.borderColor = '#fff';
+            btnQ6.style.backgroundColor = '#fff';
             break;
             case 'btnQ7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ7.style.borderColor = '#fff';
+            btnQ7.style.backgroundColor = '#fff';
             break; 
             case 'btnQ8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ8.style.borderColor = '#fff';
+            btnQ8.style.backgroundColor = '#fff';
             break; 
             case 'btnQ9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ9.style.borderColor = '#fff';
+            btnQ9.style.backgroundColor = '#fff';
             break;
             case 'btnQ10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ10.style.borderColor = '#fff';
+            btnQ10.style.backgroundColor = '#fff';
             break;
             case 'btnQ11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ11.style.borderColor = '#fff';
+            btnQ11.style.backgroundColor = '#fff';
             break;
             case 'btnQ12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ12.style.borderColor = '#fff';
+            btnQ12.style.backgroundColor = '#fff';
             break;
             case 'btnQ13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ13.style.borderColor = '#fff';
+            btnQ13.style.backgroundColor = '#fff';
             break;
             case 'btnQ14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ14.style.borderColor = '#fff';
+            btnQ14.style.backgroundColor = '#fff';
             break;
             case 'btnQ15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ15.style.borderColor = '#fff';
+            btnQ15.style.backgroundColor = '#fff';
             break;
             case 'btnQ16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ16.style.borderColor = '#fff';
+            btnQ16.style.backgroundColor = '#fff';
             break;
             case 'btnQ17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ17.style.borderColor = '#fff';
+            btnQ17.style.backgroundColor = '#fff';
             break;
             case 'btnQ18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ18.style.borderColor = '#fff';
+            btnQ18.style.backgroundColor = '#fff';
             break;
             case 'btnQ19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnQ19.style.borderColor = '#fff';
+            btnQ19.style.backgroundColor = '#fff';
             break;
             //btns r
             case 'btnR1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnR1.style.borderColor = '#fff';
+            btnR1.style.backgroundColor = '#fff';
             break;
             case 'btnR2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR2.style.borderColor = '#fff';
+            btnR2.style.backgroundColor = '#fff';
             break;
             case 'btnR3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR3.style.borderColor = '#fff';
+            btnR3.style.backgroundColor = '#fff';
             break;
             case 'btnR4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR4.style.borderColor = '#fff';
+            btnR4.style.backgroundColor = '#fff';
             break;
             case 'btnR5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR5.style.borderColor = '#fff';
+            btnR5.style.backgroundColor = '#fff';
             break;
             case 'btnR6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR6.style.borderColor = '#fff';
+            btnR6.style.backgroundColor = '#fff';
             break;
             case 'btnR7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR7.style.borderColor = '#fff';
+            btnR7.style.backgroundColor = '#fff';
             break; 
             case 'btnR8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR8.style.borderColor = '#fff';
+            btnR8.style.backgroundColor = '#fff';
             break; 
             case 'btnR9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR9.style.borderColor = '#fff';
+            btnR9.style.backgroundColor = '#fff';
             break;
             case 'btnR10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR10.style.borderColor = '#fff';
+            btnR10.style.backgroundColor = '#fff';
             break;
             case 'btnR11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR11.style.borderColor = '#fff';
+            btnR11.style.backgroundColor = '#fff';
             break;
             case 'btnR12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR12.style.borderColor = '#fff';
+            btnR12.style.backgroundColor = '#fff';
             break;
             case 'btnR13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR13.style.borderColor = '#fff';
+            btnR13.style.backgroundColor = '#fff';
             break;
             case 'btnR14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR14.style.borderColor = '#fff';
+            btnR14.style.backgroundColor = '#fff';
             break;
             case 'btnR15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR15.style.borderColor = '#fff';
+            btnR15.style.backgroundColor = '#fff';
             break;
             case 'btnR16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR16.style.borderColor = '#fff';
+            btnR16.style.backgroundColor = '#fff';
             break;
             case 'btnR17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR17.style.borderColor = '#fff';
+            btnR17.style.backgroundColor = '#fff';
             break;
             case 'btnR18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR18.style.borderColor = '#fff';
+            btnR18.style.backgroundColor = '#fff';
             break;
             case 'btnR19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnR19.style.borderColor = '#fff';
+            btnR19.style.backgroundColor = '#fff';
             break;
             //btns s
             case 'btnS1':
-            btnA1.style.borderColor = '#fff';
-            btnA1.style.backgroundColor = '#fff';
+            btnS1.style.borderColor = '#fff';
+            btnS1.style.backgroundColor = '#fff';
             break;
             case 'btnS2':
-            btnA2.style.borderColor = 'rgb(0, 0, 0)';
-            btnA2.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS2.style.borderColor = '#fff';
+            btnS2.style.backgroundColor = '#fff';
             break;
             case 'btnS3':
-            btnA3.style.borderColor = 'rgb(0, 0, 0)';
-            btnA3.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS3.style.borderColor = '#fff';
+            btnS3.style.backgroundColor = '#fff';
             break;
             case 'btnS4':
-            btnA4.style.borderColor = 'rgb(0, 0, 0)';
-            btnA4.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS4.style.borderColor = '#fff';
+            btnS4.style.backgroundColor = '#fff';
             break;
             case 'btnS5':
-            btnA5.style.borderColor = 'rgb(0, 0, 0)';
-            btnA5.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS5.style.borderColor = '#fff';
+            btnS5.style.backgroundColor = '#fff';
             break;
             case 'btnS6':
-            btnA6.style.borderColor = 'rgb(0, 0, 0)';
-            btnA6.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS6.style.borderColor = '#fff';
+            btnS6.style.backgroundColor = '#fff';
             break;
             case 'btnS7':
-            btnA7.style.borderColor = 'rgb(0, 0, 0)';
-            btnA7.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS7.style.borderColor = '#fff';
+            btnS7.style.backgroundColor = '#fff';
             break; 
             case 'btnS8':
-            btnA8.style.borderColor = 'rgb(0, 0, 0)';
-            btnA8.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS8.style.borderColor = '#fff';
+            btnS8.style.backgroundColor = '#fff';
             break; 
             case 'btnS9':
-            btnA9.style.borderColor = 'rgb(0, 0, 0)';
-            btnA9.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS9.style.borderColor = '#fff';
+            btnS9.style.backgroundColor = '#fff';
             break;
             case 'btnS10':
-            btnA10.style.borderColor = 'rgb(0, 0, 0)';
-            btnA10.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS10.style.borderColor = '#fff';
+            btnS10.style.backgroundColor = '#fff';
             break;
             case 'btnS11':
-            btnA11.style.borderColor = 'rgb(0, 0, 0)';
-            btnA11.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS11.style.borderColor = '#fff';
+            btnS11.style.backgroundColor = '#fff';
             break;
             case 'btnS12':
-            btnA12.style.borderColor = 'rgb(0, 0, 0)';
-            btnA12.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS12.style.borderColor = '#fff';
+            btnS12.style.backgroundColor = '#fff';
             break;
             case 'btnS13':
-            btnA13.style.borderColor = 'rgb(0, 0, 0)';
-            btnA13.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS13.style.borderColor = '#fff';
+            btnS13.style.backgroundColor = '#fff';
             break;
             case 'btnS14':
-            btnA14.style.borderColor = 'rgb(0, 0, 0)';
-            btnA14.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS14.style.borderColor = '#fff';
+            btnS14.style.backgroundColor = '#fff';
             break;
             case 'btnS15':
-            btnA15.style.borderColor = 'rgb(0, 0, 0)';
-            btnA15.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS15.style.borderColor = '#fff';
+            btnS15.style.backgroundColor = '#fff';
             break;
             case 'btnS16':
-            btnA16.style.borderColor = 'rgb(0, 0, 0)';
-            btnA16.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS16.style.borderColor = '#fff';
+            btnS16.style.backgroundColor = '#fff';
             break;
             case 'btnS17':
-            btnA17.style.borderColor = 'rgb(0, 0, 0)';
-            btnA17.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS17.style.borderColor = '#fff';
+            btnS17.style.backgroundColor = '#fff';
             break;
             case 'btnS18':
-            btnA18.style.borderColor = 'rgb(0, 0, 0)';
-            btnA18.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS18.style.borderColor = '#fff';
+            btnS18.style.backgroundColor = '#fff';
             break;
             case 'btnS19':
-            btnA19.style.borderColor = 'rgb(0, 0, 0)';
-            btnA19.style.backgroundColor = 'rgb(0, 0, 0)';
+            btnS19.style.borderColor = '#fff';
+            btnS19.style.backgroundColor = '#fff';
             break;
             }
             turn = 0;
     }
     }
-    btnA1.addEventListener('click',handleClick);
-            btnA2.addEventListener('click', handleClick); 
-            btnA3.addEventListener('click', handleClick); 
-            btnA4.addEventListener('click', handleClick); 
-            btnA5.addEventListener('click', handleClick); 
-            btnA6.addEventListener('click', handleClick); 
-            btnA7.addEventListener('click', handleClick); 
-            btnA8.addEventListener('click', handleClick); 
-            btnA9.addEventListener('click', handleClick); 
-            btnA10.addEventListener('click', handleClick);
-            btnA11.addEventListener('click', handleClick);
-            btnA12.addEventListener('click', handleClick);
-            btnA13.addEventListener('click', handleClick);
-            btnA14.addEventListener('click', handleClick);
-            btnA15.addEventListener('click', handleClick);
-            btnA16.addEventListener('click', handleClick);
-            btnA17.addEventListener('click', handleClick);
+btnA1.addEventListener('click',handleClick);
+btnA2.addEventListener('click', handleClick); 
+btnA3.addEventListener('click', handleClick); 
+btnA4.addEventListener('click', handleClick); 
+btnA5.addEventListener('click', handleClick); 
+btnA6.addEventListener('click', handleClick); 
+btnA7.addEventListener('click', handleClick); 
+btnA8.addEventListener('click', handleClick); 
+btnA9.addEventListener('click', handleClick); 
+btnA10.addEventListener('click', handleClick);
+btnA11.addEventListener('click', handleClick);
+btnA12.addEventListener('click', handleClick);
+btnA13.addEventListener('click', handleClick);
+btnA14.addEventListener('click', handleClick);
+btnA15.addEventListener('click', handleClick);
+btnA16.addEventListener('click', handleClick);
+btnA17.addEventListener('click', handleClick);
 btnA18.addEventListener('click', handleClick);
 btnA19.addEventListener('click', handleClick);
 btnB1.addEventListener("click",handleClick);
